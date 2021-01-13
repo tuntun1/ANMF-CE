@@ -1,4 +1,4 @@
-function [W,H,err]=ATV_GNMF(X,options,k,S,D)  
+function [W,H,err]=ATV_NMF(X,options,k,S,D)  
 maxiter =options.maxIter;
 [i,u]=size(X);
 r = k;                                 
